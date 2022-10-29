@@ -1,0 +1,118 @@
+/*PC*/
+@media(min-width: 64em){
+  
+}
+
+/*Tablet*/
+@media(min-width: 46.25em) and (min-width: 63.9375em) {
+   
+}
+
+ /*Tablet & Mobile*/
+ @media(max-width: 63.9375em)  {
+    .places-text4{
+        padding: 15px 16px; /*css cho buy tickets to ra*/
+    }
+
+    .input.form-control{
+        padding: 15px; /*css cho name,mess,email to ra*/
+    }
+
+    .contact-content .contact-info {
+        line-height: 2; /*css cho 3 ở contact cách ra*/
+    }
+
+    p.footer-icon{
+        font-size: 36px;
+    }
+
+    button.form-submit{
+        padding: 15px 30px;
+    }
+
+    p.footer-text {
+        font-size: 30px;
+        padding: 16px;
+    }
+
+    .p-t-m:hover{
+
+        opacity: 2;
+
+    }
+
+    
+}
+
+
+/*Mobile*/
+@media(max-width: 46.1875px)  {
+    #nav {
+        display: block; /*các thẻ li chiếm hết chiều ngang*/
+    }
+
+    #nav .subnav{
+        position:initial; /*reset về giá trị mặc định, bỏ giá trị absolute trên pc*/
+        background: #333;
+    }
+
+    #nav .subnav a {
+        background: #000;
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav > li {
+        display: block; /*hiện thẻ li theo chiều dọc*/
+    }
+
+    #nav > li:first-child{/*first-child là lấy ra đứa con li đầu tiên*/
+        display: inline-block; 
+    }
+
+    #nav li a {   
+         display: block;
+    }
+
+    #header{
+        overflow: hidden; /*thuộc tính khi con vượt quá kích thước của cha thì sẽ bị ẩn đi, ẩn các thẻ li home,...*/
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .seach-btn {
+        display: none; /*ẩn seach*/
+    }
+
+    .member-list {
+        width: 100%; /*css cho 3 silder 2 xuống thành 3 hàng*/
+    }
+
+    #content .image {
+        width: 60%  /*css cho 3 silder 2 chiếm 60% chiều ngang trên mobile*/
+    }
+
+    img {        
+        margin-top: 4px; /*căn chỉnh cho 3 slider 2*/
+    }
+
+    .s-col-full{
+        width: 100%; /*css cho 3 silder 3,4,5 xuống thành 3 hàng*/
+    }
+
+    .s-send-full{
+        width: 100%; /*css cho send chiếm hết chiều ngang*/
+        margin-bottom: 16px;
+    }
+
+    .places-text4{
+        width: 100%; /*buy tickets chiếm 100% chiều ngang*/
+    }
+
+    .contact-content .contact-info {
+        font-size: 13px;
+    }
+
+}

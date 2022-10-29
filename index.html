@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Vũ Hồ Đức</title>
+    <link rel="stylesheet" href="./assets/css/style.css">  
+    <link rel="stylesheet" href="./assets/css/responsive.css">  
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="icon" href="./assets/img/slider/xe.png" type="image/x-icon" />
+    
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                    More
+                 <i class="icon-down ti-angle-down"></i>
+                </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+             <div class="seach-btn">
+                <i class="seach-icon ti-search"></i>
+             </div>
+             <div id="mobile-menu" class="mobile-menu-btn">
+                 <i class="menu-icon ti-menu"></i>
+             </div>
+
+        </div>
+        <div id="slider">
+        </div>
+
+        </div>
+        <div id="content">
+            <!-- vì có các điểm chung giữa các phần trong content, dùng chung một class lấy thuộc tính sẽ tiện hơn, nên lấy class *chung-->
+            <div id="band" class="chung"> 
+                <h2 class="chung1">THE BAND</h2>
+                <p class="chung2">We love music</p>
+                <p class="van">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="hang list">
+                    <div class=" member-list  cot cot-ba text-center">
+                        <p class="name">Name</p>
+                        <img src="https://hacoled.com/wp-content/uploads/2022/01/anh-nen-one-piece-2.jpg" alt="Name" class="image">
+                    </div>
+                    <div class=" member-list  cot cot-ba text-center">
+                        <p class="name">Name</p>
+                        <img src="https://hacoled.com/wp-content/uploads/2022/01/anh-nen-one-piece-2.jpg" alt="Name" class="image">
+                    </div>
+                    <div class=" member-list  cot cot-ba text-center">
+                        <p class="name">Name</p>
+                        <img src="https://hacoled.com/wp-content/uploads/2022/01/anh-nen-one-piece-2.jpg" alt="Name" class="image">
+                    </div>
+                    <div class="clear"></div> <!--khi dùng float để cho ảnh ngang ra thì list cha hay bị lỗi ko ôm hết nên tạo một class clear để css-->
+                </div>
+            </div>
+            <!--tour-->
+            <div id="tour" class="taonenden">
+                <div class="chung"> 
+                    <h2 class="chung1 text-white">TOUR DATES</h2> <!--có text-white tạo màu trắng cho chữ-->
+                    <p class="chung2 text-white">Remember to book your tickets!</p> <!--có text-white tạo màu trắng cho chữ-->
+                    <div class="p1">
+                        <!--tickets-->
+                        <ul class="ve">
+                            <li class="banve1"> September <span class="hetve">Sold out</span></li>
+                            <li class="banve2"> October <span class="hetve">Sold out</span></li>
+                            <li class="banve3">November<span class="conve">3</span></li>
+                        </ul>
+                        <!--Places-->
+                        <div class="hang places-list ">
+                            <div class="cot cot-ba mt-16 s-col-full">
+                                <img src="https://img.meta.com.vn/Data/image/2021/10/09/hinh-anh-one-piece-00.jpg" alt="#" class="places-img">
+                                <div class="places-text">
+                                    <p class="places-text1">New York</p>
+                                    <p class="places-text2">Fri 27 Nov 2016</p>
+                                    <p class="places-text3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="places-text4 js-buy-ticket">Buy Tickets</button>
+                                </div>
+                            </div>
+                            <div class="cot cot-ba mt-16 s-col-full">
+                                <img src="https://img.meta.com.vn/Data/image/2021/10/09/hinh-anh-one-piece-00.jpg" alt="#" class="places-img">
+                                <div class="places-text">
+                                    <p class="places-text1">Paris</p>
+                                    <p class="places-text2">Sat 28 Nov 2016</p>
+                                    <p class="places-text3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="places-text4 js-buy-ticket">Buy Tickets</button>
+                                </div>
+                            </div>
+                            <div class="cot cot-ba mt-16 s-col-full">
+                                <img src="https://img.meta.com.vn/Data/image/2021/10/09/hinh-anh-one-piece-00.jpg" alt="#" class="places-img">
+                                <div class="places-text">
+                                    <p class="places-text1">San Francisco</p>
+                                    <p class="places-text2">Sun 29 Nov 2016</p>
+                                    <p class="places-text3">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="places-text4 js-buy-ticket">Buy Tickets</button>
+                                </div>                     
+                            </div>
+                            <div class="clear"></div> <!--khi dùng float để cho ảnh ngang ra thì list cha hay bị lỗi ko ôm hết nên tạo một class clear để css-->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="chung"> 
+                <h2 class="chung1">CONTACT</h2>
+                <p class="chung2">Fan? Drop a note!</p>
+                <div class="hang contact-content">
+                    <div class="cot cot-hai contact-info s-col-full">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-headphone"></i>Phone: <a class="p-t-m" href="tel:+00 151515">+00 151515</a></p>
+                        <p><i class="ti-email"></i>Email: <a class="p-t-m"  href="mailto:mail@mail.com">mail@mail.com</a></p>
+                    </div>
+
+                    <div class="cot cot-hai contact-form s-col-full">
+                        <form action="">
+                            <div class="hang">
+                                <div class="cot cot-hai s-col-full">
+                                   <input type="text" placeholder="Name" required class="form-control">                              
+                                </div>
+                                <div class="cot cot-hai s-col-full">
+                                    <input type="email" placeholder="Email" required class="form-control">
+                                 </div>
+                            </div>
+                            <div class="hang">
+                                <div class="cot cot-mot">
+                                   <input type="text" placeholder="Messenge" required class="form-control">                                
+                                </div>
+                            </div>
+                            <button class="form-submit s-send-full">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="mapp">
+                <img src="https://pdp.edu.vn/wp-content/uploads/2021/06/hinh-anh-one-piece-dep-chat-nhat.jpeg" alt="#">
+            </div>
+        </div>
+        <div id="footer">
+                <p class="footer-icon">
+                    <i class="ti-facebook"></i>
+                    <i class="ti-instagram"></i>
+                    <i class="ti-android"></i>
+                    <i class="ti-pinterest"></i>
+                    <i class="ti-twitter"></i>
+                    <i class="ti-linkedin"></i>
+                </p>
+                <p class="footer-text">
+                    Powered by <a  href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+                </p>
+        </div>
+    </div>
+    <div class="modal js-modal">
+       <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+            <i class="ti-close"></i>
+        </div>
+        <header class="modal-header">
+            <i class="modal-bag ti-bag"></i>
+            Tickets
+        </header>
+        <div class="modal-body">
+            <label for="" class="modal-lable">
+                <i class="ti-shopping-cart"></i>
+                 Tickets, $15 per person
+                 <p><input type="text" class="modal-input" placeholder="How many?"></p>
+            </label>
+            <label for="" class="modal-lable">
+                <i class="ti-user"></i>
+                Send To
+                 <p><input type="text" class="modal-input" placeholder="Enter email"></p>
+            </label>
+            <button class="modal-pay">
+                PAY
+                <i class="ti-check"></i>
+            </button>
+           <div class="modal-footer">
+            <p class="modal-need">
+                Need <a href="" class="modal-help">help?</a>
+            </p>
+           </div>
+        </div>
+       </div>
+    </div>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket') /* lấy tất cả các class có tên js-buy-ticket*/
+        const modal = document.querySelector('.js-modal') /* lấy class có tên js-modal*/
+        const modalclose = document.querySelector('.js-modal-close')
+        const modalcontainer = document.querySelector('.js-modal-container')
+        // hàm hiển thị modal mua vé (thêm class open vào modal)
+        function showBuyTickets(){
+            modal.classList.add('open')
+        }
+        // hàm ẩn modal mua vé (gỡ bỏ class open của modal)
+        function hideBuyTickets(){
+            modal.classList.remove('open')
+        }
+        // lặp qua từng thẻ button và nghe hành vi click
+        for(const buyBtn of buyBtns){
+            buyBtn.addEventListener('click', showBuyTickets) /* lắng nghe click rồi thực hiện show*/
+        }
+        // nghe hành vi click vào nút button close
+        modalclose.addEventListener('click',hideBuyTickets)
+        //click ra bên ngoài cũng đóng thẻ modal
+        modal.addEventListener('click',hideBuyTickets)
+        modalcontainer.addEventListener('click', function(event){
+            event.stopPropagation() /*ngừng việc nổi bọt lại*/
+        })
+    </script>
+
+
+
+    <script>
+        var header = document.getElementById('header');  /*getElementById tức là đi lấy element là header*/
+        var mobileMenu = document.getElementById('mobile-menu');  /*đi lấy id của mobile-menu*/
+        var headerHeight = header.clientHeight;  /*gán */
+
+        // đóng mở mobile menu
+        mobileMenu.onclick = function(){
+            var isClosed = header.clientHeight === headerHeight; /*=== dùng để so sánh header.clientHeight và headerHeight có bằng nhau không */
+            if(isClosed){
+                header.style.height='auto'; // hiện
+            }else{
+                header.style.height=null; // ẩn
+            }
+        }
+
+        //tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(var i = 0 ; i<menuItems.length;i++){
+            var menuItem = menuItems[i]; // gán     
+            menuItem.onclick = function(event){ //lắng nghe onclick
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');//không ẩn nút more
+                if(isParentMenu){
+                    event.preventDefault();
+                }
+                else{
+                    header.style.height=null;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
